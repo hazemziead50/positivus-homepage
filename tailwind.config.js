@@ -48,7 +48,7 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        // ألوان مشروع Positivus
+        
         positivus: {
           green: "#B9FF66",
           dark: "#191A23",
@@ -60,6 +60,10 @@ export default {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
+      fontFamily: {
+        sans: ["'Space Grotesk'", "sans-serif"],
+      },
+      
     },
   },
   plugins: [],
